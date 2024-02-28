@@ -1,0 +1,15 @@
+.background-section {
+    background-image: url(../../../assets//img/img-home-portada1.jpg);
+    /* Cambia 'ruta/a/la/imagen.jpg' por la ruta de tu imagen */
+    background-size: cover;
+    /* Ajusta el tamaño de la imagen para cubrir todo el fondo */
+    background-position: center;
+    height: 100vh;
+
+    /* Centra la imagen */
+}
+
+.aumento {
+    font-size: 64px;
+    /* Tamaño de fuente personalizado */
+}

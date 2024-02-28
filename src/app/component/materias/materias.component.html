@@ -1,0 +1,79 @@
+<nav id="sidebar">
+    <div class="sidebar-header">
+        <h3>Cursos de Computación</h3>
+    </div>
+
+    <div class="menu-container">
+        <ul class="list-unstyled components">
+            <li>
+                <a (click)="toggleSubmenu(guidesSubmenu)" class="d-flex align-items-center">
+                    <i class="bi bi-box mr-2"></i> <!-- Clase de Bootstrap para margen derecho -->
+                    <span class="ml-2">Informatica</span> <!-- Clase de Bootstrap para margen izquierdo -->
+                </a>
+                <ul class="submenu py-2" #guidesSubmenu>
+                    <li><a href="#"><i class="bi bi-clipboard-check mr-1"></i> <span>Gestion de proyectos</span></a>
+                    </li>
+                    <li><a href="#"><i class="bi bi-display mr-1"></i><span>Tics</span></a></li>
+                    <li><a href="#"><i class="bi bi-gear-wide mr-1"></i><span>Desarrollo Web </span></a></li>
+                    <li><a href="#"><i class="bi bi-gear-wide mr-1"></i><span>Reparacion de Computadoras</span></a></li>
+                    <li><a href="#"><i class="bi bi-gear-wide mr-1"></i><span>Full Stact</span></a></li>
+                </ul>
+            </li>
+
+            <li>
+                <a (click)="toggleSubmenu(cssLibrarySubmenu)"><i class="bi bi-pin-map-fill mr-2"></i><span>Cursos de
+                        front-end </span></a>
+                <ul class="submenu my-2" #cssLibrarySubmenu>
+                    <li><a href="#"><i class="bi bi-person-workspace mr-2"></i><span>Curso de html</span></a></li>
+                    <li><a href="#"><i class="bi bi-person-workspace mr-2"></i><span>Curso de css</span>
+                        </a></li>
+                    <li><a href="#"><i class="bi bi-person-workspace mr-2"></i><span>Curso de Github</span> </a></li>
+                </ul>
+            </li>
+            <li>
+                <a (click)="toggleSubmenu(componentsSubmenu)"><i class="bi bi-rocket-fill mr-2"></i><span>Cursos para
+                        backend</span></a>
+                <ul class="submenu my-2" #componentsSubmenu>
+                    <li><a href="#"><i class="bi bi-record mr-2"></i><span>Curso de SQL Server</span></a></li>
+                    <li><a href="#"><i class="bi bi-record mr-2"></i><span>Curso de Node.js</span></a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<section class="hero is-fullheight">
+    <div class="hero-body">
+        <div class="container has-text-centered">
+            <div class="columns is-8 is-variable ">
+                <div class="column is-two-thirds has-text-left">
+
+                </div>
+                <div class="column is-one-third has-text-left">
+                    <div class="field">
+                        <label class="label">Name</label>
+                        <div class="control">
+                            <input class="input is-medium" type="text">
+                        </div>
+                    </div>
+                    <div class="field">
+                        <label class="label">Email</label>
+                        <div class="control">
+                            <input class="input is-medium" type="text">
+                        </div>
+                    </div>
+                    <div class="field">
+                        <label class="label">Message</label>
+                        <div class="control">
+                            <textarea class="textarea is-medium"></textarea>
+                        </div>
+                    </div>
+                    <div class="control">
+                        <button type="submit" class="button is-link is-fullwidth has-text-weight-medium is-medium">Send
+                            Message</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

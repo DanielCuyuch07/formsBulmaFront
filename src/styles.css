@@ -1,1 +1,26 @@
 @import "https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css";
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+.roboto-slab {
+    font-family: "Roboto Slab", serif;
+
+}
+
+.patua-one-regular {
+    font-family: "Patua One", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+
+.smooch-sans {
+    font-family: "Smooch Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
